@@ -1,6 +1,6 @@
 {
   "name": "bender-bot",
-  "version": "0.0",
+  "version": 0,
   "description": "I don't tell you how to tell me what to do, so don't tell me how to do what you tell me to do.",
   "author": "bEnderFX Rodríguez <Bender@Ilovebender.com>",
   "scripts": {
