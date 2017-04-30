@@ -1,0 +1,13 @@
+{
+    "db": {
+        "dialect": "sqlite",
+        "dbName": "benderbot",
+        "dbHost": null,
+        "dbUser": null,
+        "dbPassword": null,
+        "path": "./data/db/db.sqlite",
+        "pool_max": 10,
+        "pool_min": 0,
+        "pool_idle": 10000
+    }
+}

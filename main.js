@@ -12,6 +12,8 @@ global.include = function (file) {
 
 // Prepare the logging
 global.Log = include('lib/logger');
+// Setup and connect to the backend
+global.DB = include('lib/database');
 // Load the security model in order to allow and deny user actions based on his/her role.
 global.security = include('lib/security');
 

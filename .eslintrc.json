@@ -21,6 +21,8 @@
         "valid-typeof": "warn"
     },
     "globals": {
-        "include": false
+        "include": false,
+        "Log": false,
+        "DB": false
     }
 }

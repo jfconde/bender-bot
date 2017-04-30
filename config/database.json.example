@@ -1,0 +1,13 @@
+{
+    "db": {
+        "dialect": "mysql",
+        "dbName": "databaseName",
+        "dbHost": "localhost:3306",
+        "dbUser": "databaseUserName",
+        "dbPassword": "databaseUserPassword",
+        "path": "only needed for sqlite",
+        "pool_max": 10,
+        "pool_min": 0,
+        "pool_idle": 10000
+    }
+}

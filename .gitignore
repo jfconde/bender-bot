@@ -56,3 +56,11 @@ typings/
 
 # dotenv environment variables file
 .env
+
+# --------------------------
+# - Bot Specifics          -
+# --------------------------
+
+# Database configuration
+# config/database.json
+# data/db/
