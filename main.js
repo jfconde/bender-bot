@@ -1,12 +1,19 @@
-// Support global requires via include
+let argv = require('yargs').alias('d', 'debug').argv;
 global.base_dir = __dirname;
 global.abs_path = function (path) {
-    return base_dir + path;
+    return global.base_dir + path;
 };
 
+global.debugMode = !!argv.debug;
+// Support global requires via include
 global.include = function (file) {
-    return require(abs_path('/' + file));
+    return require(global.abs_path('/' + file));
 };
+
+// Prepare the logging
+global.Log = include('lib/logger');
+// Load the security model in order to allow and deny user actions based on his/her role.
+global.security = include('lib/security');
 
 const TeleBot = require('telebot');
 
