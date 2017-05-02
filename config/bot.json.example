@@ -1,0 +1,6 @@
+{
+    /* Telegram Bot Token */
+    "telegramToken": "INSERT-YOUR-TELEGRAM-BOT-TOKEN",
+    /* Master User Id */
+    "masterUserId": 0
+}
