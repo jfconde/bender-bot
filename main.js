@@ -1,4 +1,6 @@
-let argv = require('yargs').alias('d', 'debug').argv;
+let argv = require('yargs').alias('d', 'debug').argv,
+    bot;
+
 global.base_dir = __dirname;
 global.abs_path = function (path) {
     return global.base_dir + path;
@@ -17,20 +19,7 @@ global.DB = include('lib/database');
 // Load the security model in order to allow and deny user actions based on his/her role.
 global.security = include('lib/security');
 
-const TeleBot = require('telebot');
-
-const bot = new TeleBot({
-    token: '270092014:AAGj1oqCrqQKGTobK3MnGmTdW_3p_RU-Vcs', // Required. Telegram Bot API token.
-    polling: { // Optional. Use polling.
-        interval: 500, // Optional. How often check updates (in ms).
-        timeout: 0, // Optional. Update polling timeout (0 - short polling).
-        limit: 50, // Optional. Limits the number of updates to be retrieved.
-        retryTimeout: 5000, // Optional. Reconnecting timeout (in ms).
-        allowedUpdates: [] // Optional. List the types of updates you want your bot to receive. Specify an empty list to receive all updates regardless of type.
-    },
-    modules: {}
-});
-
+bot = include('lib/bot');
 include('lib/commands')(bot);
 
 bot.connect();
