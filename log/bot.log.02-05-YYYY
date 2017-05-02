@@ -22,3 +22,14 @@
 {"level":"error","message":"El usuario no tiene premisos","timestamp":"2017-05-02T14:05:42.784Z"}
 {"level":"error","message":"El usuario no tiene premisos","timestamp":"2017-05-02T14:06:28.856Z"}
 {"level":"error","message":"El usuario no tiene premisos","timestamp":"2017-05-02T14:06:33.815Z"}
+{"level":"error","message":"El usuario no tiene premisos","timestamp":"2017-05-02T14:08:48.011Z"}
+{"level":"error","message":"El usuario no tiene premisos","timestamp":"2017-05-02T14:08:48.056Z"}
+{"level":"error","message":"El usuario no tiene premisos","timestamp":"2017-05-02T14:09:50.135Z"}
+{"level":"error","message":"El usuario no tiene premisos","timestamp":"2017-05-02T14:09:50.184Z"}
+{"level":"error","message":"El usuario no tiene premisos","timestamp":"2017-05-02T14:15:35.909Z"}
+{"level":"error","message":"El usuario no tiene premisos","timestamp":"2017-05-02T14:15:39.427Z"}
+{"level":"error","message":"El usuario no tiene premisos","timestamp":"2017-05-02T14:15:57.126Z"}
+{"level":"error","message":"El usuario no tiene premisos","timestamp":"2017-05-02T14:41:20.957Z"}
+{"level":"error","message":"El usuario no tiene premisos","timestamp":"2017-05-02T14:41:24.491Z"}
+{"level":"error","message":"user (18132371) tried to acess protected resource (/ip) but lacked permission (pako).","timestamp":"2017-05-02T14:43:34.022Z"}
+{"level":"error","message":"user (18132371) tried to acess protected resource (/ip) but has not subscribed. pako","timestamp":"2017-05-02T14:43:50.136Z"}
