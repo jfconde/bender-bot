@@ -68,3 +68,4 @@ typings/
 config/database.json
 config/bot.json
 data/db/
+log/

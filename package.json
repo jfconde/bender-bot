@@ -28,10 +28,8 @@
     "winston-daily-rotate-file": "~1.4.6",
     "sequelize": "~3.30.4",
     "deasync": ">=0.1.9",
-    "sqlite3": ">=3.1.8"
+    "sqlite3": ">=3.1.8",
+    "telebot": "./vendor/telebot/"
   },
-  "license": "GPL",
-  "devDependencies": {
-    "telebot": "^1.0.7"
-  }
+  "license": "GPL"
 }
