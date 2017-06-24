@@ -53,4 +53,4 @@ Request a BenderBot unit:
     npm install
     npm start
 
-And bite its shiny metal ass!
+And you're ready to go.
